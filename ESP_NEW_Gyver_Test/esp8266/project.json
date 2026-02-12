@@ -1,7 +1,7 @@
 {          
   "name": "ESP_NEW_Gyver_Test",
   "about": "Заготовка для проектов с web & MQTT",
-  "version": "0.2",
+  "version": "0.3",
   "notes": "Исправлены мелкие баги",
   "builds": [
     {
