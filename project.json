@@ -1,0 +1,44 @@
+{
+  "name": "ESP_NEW_Gyver_Test",
+  "about": "Заготовка для проектов с web & MQTT",
+  "version": "0.1.1",
+  "notes": "Исправлены мелкие баги",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Anndy1/wf/main/ESP_NEW_Gyver_Test/esp8266/firmware.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Anndy1/wf/main/ESP_NEW_Gyver_Test/esp32/firmware.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Anndy1/wf/main/ESP_NEW_Gyver_Test/esp32_c6/firmware.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Anndy1/wf/main/ESP_NEW_Gyver_Test/esp32_s3/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
